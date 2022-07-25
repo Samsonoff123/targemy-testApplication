@@ -1,0 +1,66 @@
+.navbar__main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.navbar__group {
+    display: flex;
+    flex-direction: column;
+    background: #FAFDFF;
+    border-radius: 15px;    
+}
+
+.navbar__element {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.navbar__element:not(:last-child) {
+    border-bottom: #F6F6F6 solid 1px;
+}
+
+.profile img {
+    width: 62px;
+    height: 62px;
+    border: #F5F4FF solid 3px;
+    border-radius: 50%;
+    padding: 3px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.discribtion {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.discribtion .name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.discribtion .type {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9F9F9F;
+}
